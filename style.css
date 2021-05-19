@@ -1,0 +1,30 @@
+.nav navbar-nav{
+    display: inline;
+    list-style: none;
+}
+marquee{
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+iframe{
+    width: 100%;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid;
+    height: 100%;
+}
+.row::after{
+    clear: both;
+    display: table;
+}
+p{
+    font-size: 15px;
+}
